@@ -1,0 +1,255 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+	font-family: Papyrus, sans-serif;
+}
+
+#calculator_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10vh;
+	margin-bottom: 25vh;
+	background-color: rgb(140,160,175);
+	border-radius: 20px;
+	width: 25vw;
+	height: 70vh;
+	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+#title{
+	font-size: 40px;
+	color:orange;
+}
+
+#n{
+	margin-top: 50px;
+}
+
+#input-field{
+	font-size: 26.5;
+	background-color: black;
+	color: orange;
+	border: none;
+}
+#clear-delete-modulo-divise{
+	height: 10vh;
+	background-color: rgb(140,160,175);
+	border-line: 0px;
+	margin-top: 25px;
+}
+
+#clear-delete-modulo-divise button:hover{
+	 box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#clear-delete-modulo-divise #clear{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#clear-delete-modulo-divise #delete{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#clear-delete-modulo-divise #modulo{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#clear-delete-modulo-divise #divise{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#seven-eight-nine-multiplication{
+	height: 10vh;
+	background-color: rgb(140,160,175);
+}
+
+#seven-eight-nine-multiplication button:hover{
+	 box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5)
+}
+#seven-eight-nine-multiplication #seven{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#seven-eight-nine-multiplication #eight{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#seven-eight-nine-multiplication #nine{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#seven-eight-nine-multiplication #multiplication{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#four-five-six-minus{
+	height: 10vh;
+	background-color: rgb(140,160,175);
+}
+
+#four-five-six-minus button:hover{
+	 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#four-five-six-minus #four{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#four-five-six-minus #five{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#four-five-six-minus #six{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#four-five-six-minus #minus{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#one-two-three-plus{
+	height: 10vh;
+	background-color: rgb(140,160,175);
+}
+
+#one-two-three-plus button:hover{
+	 box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#one-two-three-plus #one{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#one-two-three-plus #two{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#one-two-three-plus #three{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+
+#one-two-three-plus #plus{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#zero-comma-equals{
+	height: 10vh;
+	background-color: rgb(140,160,175);
+}
+
+#zero-comma-equals button:hover{
+	 box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#zero-comma-equals #zero{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#zero-comma-equals #comma{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#zero-comma-equals #equals{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	font-size: 23px;
+	font-weight: bold;
+}

@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>
+			Calculator
+		</title>
+		<link rel="stylesheet" href="calculator_style_sheet.css">
+	</head>
+	<body>
+		<div id='calculator_container'>
+			<label id='title'>CALCULATOR</label>
+			<span id='n'>
+				<input type='text' id='input-field' title='input' placeholder='enter a number'>
+			</span>
+			<div>
+				<script src="algorithm.js"></script>
+				<div id='clear-delete-modulo-divise'>
+					<button id='clear' type="button" onclick="clearfunction()">C</button>
+					<button id='delete' type="button" onclick="deletefunction()">D</button>
+					<button id='modulo' type="button" onclick="modulo()">%</button>
+					<button id='divise' type="button" onclick="divise()">/</button>
+				</div>
+				<div id='seven-eight-nine-multiplication'>
+					<button id='seven' type="button" onclick="number7()">7</button>
+					<button id='eight' type="button" onclick="number8()">8</button>
+					<button id='nine' type="button" onclick="number9()">9</button>
+					<button id='multiplication' type="button" onclick="multiply()">x</button>
+				</div>
+				<div id='four-five-six-minus'>
+					<button id='four' type="button" onclick="number4()">4</button>
+					<button id='five' type="button" onclick="number5()">5</button>
+					<button id='six' type="button" onclick="number6()">6</button>
+					<button id='minus' type="button" onclick="minus()">-</button>
+				</div>
+				<div id='one-two-three-plus'>
+					<button id='one' type="button" onclick="number1()">1</button>
+					<button id='two' type="button" onclick="number2()">2</button>
+					<button id='three' type="button" onclick="number3()">3</button>
+					<button id='plus' type="button" onclick="plus()">+</button>
+				</div>
+				<div id='zero-comma-equals'>
+					<button id='zero' type="button" onclick="number0()">0</button>
+					<button id='comma' type="button" onclick="comma()">.</button>
+					<button id='equals' type="button" onclick="equals()">=</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
