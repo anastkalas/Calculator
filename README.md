@@ -2,8 +2,8 @@
 
 <p>A simple calculator built with HTML, CSS, and JavaScript that supports basic arithmetic operations (addition, subtraction, multiplication, division, and modulo), decimal calculations, and features like clear, delete, and operation precedence. The responsive interface is styled with CSS for a clean and modern look.</p>
 
+<h3>Features:</h3>
 <ul>
-  <h3>Features:</h3>
   <br/>
   <li>Basic arithmetic operations</li>
   <li>Support for decimals and modulo.</li>
